@@ -1,0 +1,29 @@
+while True:
+    print(".........................................................UNIT CONVERTER............................................................")
+    print("enter - l for length_converter")
+    print("enter - w for weight_converter")
+    print("enter - te for temperature_converter")
+    print("enter - t for time_converter")
+    print("enter - b for exit ")
+    con = input("Enter which convertion you want := ")
+    
+    if con == "l":
+        print("\n--- Length Converter ---")
+        print("enter =1. Kilometer to Meter")
+        print("enter =2. Meter to Kilometer")
+        print("enter =3. Centimeter to Meter")
+        print("enter =4. Meter to Centimeter")
+
+        choice = int(input("\nChoose an option: "))
+        value = float(input("Enter value: "))
+    
+        if choice == 1:
+            print(f"{value} km = {value * 1000} m")
+        elif choice == 2:
+            print(f"{value} m = {value / 1000} km")
+        elif choice == 3:
+            print(f"{value} cm = {value / 100} m")
+        elif choice == 4:
+            print(f"{value} m = {value * 100} cm")
+        else:
+            print("Invalid choice!")
