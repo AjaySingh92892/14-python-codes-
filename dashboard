@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title("app using Streamlit")
-st.header("hi i am khush kumar and Welcome to my dashboard")
+st.header("hi i am ajay and Welcome to my dashboard")
 st.subheader("I am a header")
 st.write("You can write:", 10 + 5)
 
